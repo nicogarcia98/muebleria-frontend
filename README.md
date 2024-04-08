@@ -12,14 +12,17 @@
 
 ## Tema
 ### Descripción
-Vamos a realizar un sitio de para una mueblería. La propuesta es para ver las ventas de artículos (muebles) de cada vendedor. Cada articulo tiene un tipo de artículo. En la sección ventas se podrá ver los muebles vendidos por cada vendedor y tambien se van a calcular los tipos de artículos más vendidos. Cuando se registra una venta también se registra el cliente que la realizó. Una vez registrada la venta se arma una "entrega" de los articulos de la venta.
+Vamos a realizar un sitio de para una mueblería. La propuesta es para ver las ventas de artículos (muebles) de cada vendedor. Cada articulo tiene un tipo de artículo. En la sección ventas se podrá ver los muebles vendidos por cada vendedor y tambien se van a calcular los tipos de artículos más vendidos. Las ventas se identifican con un código, además se registra el cliente y el vendedor que la realizó. Una vez registrada la venta se arma una "entrega" de los articulos de la venta. Las entregas están codificadas y poseen fecha de entrega y direccion de envío.
 
 ### Modelo
-![imagen del modelo]()
+![DER](/diagrams/DER.png)
 
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
 ## Alcance Funcional 
+
+| REQUERIMIENTO | DETALLE |
+| CRUD SIMPLE | 1. CRUD tipo mueble |
+
 
 ### Alcance Mínimo
 
