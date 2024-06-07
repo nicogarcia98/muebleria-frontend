@@ -1,14 +1,13 @@
 {
-  "name": "muebleria-frontend",
+  "name": "muebleria-front",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start:dev": "ng serve --configuration=development",
-    "start:prod": "ng serve",
+    "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:frontend-app": "node dist/frontend-app/server/server.mjs"
+    "serve:ssr:muebleria-front": "node dist/muebleria-front/server/server.mjs"
   },
   "private": true,
   "dependencies": {
