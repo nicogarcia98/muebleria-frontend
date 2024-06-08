@@ -1,1 +1,5 @@
-<p>sidebar works!</p>
+<mat-nav-list>
+    @for (option of optionsMenu; track option) {
+      <a mat-list-item [routerLink]="option.url" [activated]="option.isActive" >{{ option.text }}</a>
+    }
+</mat-nav-list>

@@ -1,2 +1,12 @@
-<app-sidebar></app-sidebar>
-<router-outlet></router-outlet>
+<div class="home-container">
+    <mat-drawer-container class="example-container">
+        <mat-drawer mode="side" opened>
+            <app-sidebar></app-sidebar>
+        </mat-drawer>
+        <mat-drawer-content>
+            <div class="router-home-container">
+                <router-outlet></router-outlet>
+            </div>
+        </mat-drawer-content>
+    </mat-drawer-container>
+</div>

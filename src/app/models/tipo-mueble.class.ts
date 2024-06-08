@@ -1,4 +1,4 @@
-export interface ITipoMueble {
-    codigo: number;
-    descripcion: string;
+export class ITipoMueble {
+    codigo?: number;
+    descripcion?: string;
 }
